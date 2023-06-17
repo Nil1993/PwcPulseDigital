@@ -1,0 +1,20 @@
+2023-06-17 15:06:396 INFO  Waits:20 - Element found: By.xpath: //p[text()='Digital Pulse']
+2023-06-17 15:06:574 INFO  HomePageStepDef:38 - 3 columns of articles are present
+2023-06-17 15:06:598 INFO  HomePageStepDef:46 - 2 articles are present in the left column
+2023-06-17 15:06:626 INFO  HomePageStepDef:53 - 1 article is present in the middle column
+2023-06-17 15:06:655 INFO  HomePageStepDef:60 - 4 articles are present in the right column
+2023-06-17 15:06:550 INFO  Waits:20 - Element found: By.xpath: //p[text()='Digital Pulse']
+2023-06-17 15:06:726 INFO  Waits:20 - Element found: By.xpath: //a[contains(@navigation-title,'Subscribe')]
+2023-06-17 15:06:975 INFO  HomePageStepDef:66 - Clicked Subscribe Link
+2023-06-17 15:06:106 INFO  Waits:20 - Element found: By.xpath: //h2[contains(text(), 'Subscribe')]
+2023-06-17 15:06:149 INFO  SubscribeDigtalPageStepDef:26 - Subscribe page got displayed
+2023-06-17 15:06:633 INFO  Waits:20 - Element found: By.xpath: //div[text()='reCAPTCHA']
+2023-06-17 15:06:722 INFO  Waits:20 - Element found: By.xpath: //button[text()='Search']
+2023-06-17 15:06:971 INFO  HomePageStepDef:72 - Clicked on Search Button
+2023-06-17 15:06:46 INFO  Waits:20 - Element found: By.xpath: //input[@name='searchfield']
+2023-06-17 15:06:406 INFO  HomePageStepDef:80 - Text entered into the Searchbox
+2023-06-17 15:06:459 INFO  Waits:20 - Element found: By.xpath: //input[@type='submit']
+2023-06-17 15:06:995 INFO  HomePageStepDef:87 - Clicked on the Submit Search button
+2023-06-17 15:06:529 INFO  Waits:20 - Element found: By.xpath: //h2[contains(text(),'Refine your search')]
+2023-06-17 15:06:557 INFO  SearchResultPageStepDef:26 - Search Result page is displayed
+2023-06-17 15:06:578 INFO  SearchResultPageStepDef:34 - Min 1 search result is present

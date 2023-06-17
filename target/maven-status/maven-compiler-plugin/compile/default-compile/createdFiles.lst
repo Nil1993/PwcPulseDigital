@@ -1,0 +1,9 @@
+pageObjects\SubscribeDigitalPage.class
+pageObjects\HomePage.class
+managers\PageObjectsManager.class
+genericUtilities\ConfigFileReader.class
+managers\DriverManager.class
+pageObjects\SearchResultPage.class
+helpAssist\ContextSetup.class
+genericUtilities\Waits.class
+managers\ReadFileManager.class

@@ -1,0 +1,455 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-17T09:38:18.440Z",
+        "line": 13,
+        "name": "Verfication of number of columns and articles",
+        "description": "",
+        "id": "verifying-digital-pulse-webpage;verfication-of-number-of-columns-and-articles;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1679000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 46236000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "stepDefination.HomePageStepDef.I_Navigated_pwc_digital_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 474000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am viewing the \"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefination.HomePageStepDef.I_Am_Viewing_ThePage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am presented with \"3\" columns of articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefination.HomePageStepDef.I_Am_Presented_With_Columns_Of_Articles(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The Left \"2\" column is displaying \"2\" articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 10
+                },
+                {
+                  "val": "2",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefination.HomePageStepDef.The_Left_Column_Is_Displaying_Articles(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the Middle \"1\" column is displaying \"1\" articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 12
+                },
+                {
+                  "val": "1",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefination.HomePageStepDef.the_MiddleColumn_IsDisplaying_Articles(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The Right \"3\" is displaying \"4\" articles",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 11
+                },
+                {
+                  "val": "4",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefination.HomePageStepDef.the_RightColumn_IsDisplaying_Articles(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-17T09:39:07.365Z",
+        "line": 33,
+        "name": "Subsribe Page Fields Verification",
+        "description": "",
+        "id": "verifying-digital-pulse-webpage;subsribe-page-fields-verification;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1183000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25907000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "stepDefination.HomePageStepDef.I_Navigated_pwc_digital_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 401000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am viewing the \"Home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefination.HomePageStepDef.I_Am_Viewing_ThePage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8298000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the Subscribe navigation link",
+            "match": {
+              "location": "stepDefination.HomePageStepDef.I_ClickOn_The_Subscribe_Navigation_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am taken to the Subscribe page",
+            "match": {
+              "location": "stepDefination.SubscribeDigtalPageStepDef.I_Am_Taken_ToThe_SubscribePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1375000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am presented with the below fields",
+            "match": {
+              "location": "stepDefination.SubscribeDigtalPageStepDef.I_Am_Presented_With_TheBelow_Fields(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Field",
+                  "Required",
+                  "Type"
+                ]
+              },
+              {
+                "cells": [
+                  "First Name",
+                  "true",
+                  "text"
+                ]
+              },
+              {
+                "cells": [
+                  "Last Name",
+                  "true",
+                  "text"
+                ]
+              },
+              {
+                "cells": [
+                  "Organisation",
+                  "true",
+                  "text"
+                ]
+              },
+              {
+                "cells": [
+                  "Job Title",
+                  "true",
+                  "dropdown"
+                ]
+              },
+              {
+                "cells": [
+                  "Business Email Address",
+                  "true",
+                  "text"
+                ]
+              },
+              {
+                "cells": [
+                  "State",
+                  "true",
+                  "dropdown"
+                ]
+              },
+              {
+                "cells": [
+                  "Countries or regions",
+                  "true",
+                  "dropdown"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I will need to complete Google reCAPTCHA before I can complete my request",
+            "match": {
+              "location": "stepDefination.SubscribeDigtalPageStepDef.I_Will_Need_To_Complete_Google_ReCAPTCHA_BeforeICanComplete_MyRequest()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-17T09:39:44.885Z",
+        "line": 45,
+        "name": "verification of Number of Search Results",
+        "description": "",
+        "id": "verifying-digital-pulse-webpage;verification-of-number-of-search-results;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.Hooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 720000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefination.Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13715000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "stepDefination.HomePageStepDef.I_Navigated_pwc_digital_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 370000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on the Magnifying glass icon to perform a search",
+            "match": {
+              "location": "stepDefination.HomePageStepDef.I_ClickOn_The_MagnifyingGlassIcon_To_PerformASearch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 434000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter the text \"Single page applications\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Single page applications",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefination.HomePageStepDef.I_Enter_TheText_SinglePageApplications(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1588000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I submit the search",
+            "match": {
+              "location": "stepDefination.HomePageStepDef.I_Submit_The_Search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 561000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I am taken to the search results page",
+            "match": {
+              "location": "stepDefination.SearchResultPageStepDef.I_Am_Taken_To_The_SearchResultsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I am presented with at least \"1\" search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefination.SearchResultPageStepDef.I_Am_Presented_With_AtLeast_SearchResult(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Digital Pulse webPage",
+    "description": "",
+    "id": "verifying-digital-pulse-webpage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/VerifyColumnsAndArticles.feature",
+    "tags": []
+  }
+]
